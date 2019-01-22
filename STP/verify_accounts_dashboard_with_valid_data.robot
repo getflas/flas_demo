@@ -7,7 +7,7 @@ Library           Selenium2Library    WITH NAME    se
 @{softwares}      python-pip
 
 *** Test Cases ***
-verify_accounts_dashboard_with_valid_data
+verify_accounts_dashboard_wvalid_data
     ${chrome_options} =    Evaluate    sys.modules['selenium.webdriver'].ChromeOptions()    sys, selenium.webdriver
     Call Method    ${chrome_options}    add_argument    headless
     Call Method    ${chrome_options}    add_argument    disable-gpu
